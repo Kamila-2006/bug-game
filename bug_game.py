@@ -9,7 +9,7 @@ MAX_TURNS = 26  # максимум ходов до дождя
 
 # Подготовка поля
 def create_board():
-    board = [['.' for _ in range(SIZE)] for _ in range(SIZE)]
+    board = [['⬛' for _ in range(SIZE)] for _ in range(SIZE)]
     leaves = set()
     obstacles = set()
     bonuses = set()
